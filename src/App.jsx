@@ -34,7 +34,7 @@ function App() {
     const router = createBrowserRouter(
         createRoutesFromElements(
             <Route>
-                <Route path="/home" element={<HomePage/>}/>
+                <Route path="/" element={<HomePage/>}/>
                 <Route path="/pokemon/:id" element={<PokemonDetailPage/>}/>
                 <Route path="/favorites" element={<FavoritesPage/>}/>
                 <Route path="/about" element={<AboutPage/>}/>
