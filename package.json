@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://despenser.github.io/",
+  "homepage": "https://despenser.github.io/pokedex",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
