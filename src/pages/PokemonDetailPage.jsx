@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { FaArrowLeft, FaWeight, FaRulerVertical, FaHeart, FaRegHeart, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import pokemonApi from '../services/api';
+import { motion } from "framer-motion";
 import usePokemonStore from '../store/pokemonStore';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
